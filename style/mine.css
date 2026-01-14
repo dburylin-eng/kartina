@@ -1,0 +1,76 @@
+.ramka {
+    width: 50%;
+}
+img:hover {
+    border-radius: 2px;
+   /*  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+img {
+    margin: 2% 5%;
+    margin-bottom: 12%;
+    border-radius: 2px;
+   /*  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+   
+}
+
+canvas{
+    width: 50%;
+}
+
+ .mod-in {
+     width: 80%;
+     margin: 2%;
+     
+ }
+img.mod {
+         display: inline-grid;
+    justify-content: start;
+    align-content: stretch;
+  padding-left: 30px;
+    width: 60%;
+margin: 2% 2%;
+ }
+ .modal-body-e{
+     padding: 50px
+ }
+ 
+ form.new_form {
+    width: 600px;
+
+    display: block;
+   
+    padding: 40px;
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); */
+    margin: auto
+     
+ }
+
+ .header-logo-image{
+     all: initial;
+    height: 6vh;
+    padding-left: 75px
+ }
+ .textt{
+     max-width: 700px;
+    margin: auto;
+    padding: 10px
+ }
+ .loader {
+    width: 38px;
+    height: 38px;
+    border: 5px solid #FFF;
+    border-bottom-color: #0272d3;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
